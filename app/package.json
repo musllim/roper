@@ -10,8 +10,8 @@
     "hardhat": "^2.13.0"
   },
   "dependencies": {
-    "@thirdweb-dev/contracts": "^3.8.0",
-    "thirdweb": "^0.13.42",
+    "@thirdweb-dev/contracts": "^3.13.0",
+    "thirdweb": "^0.13.55",
     "zksync-web3": "^0.14.3"
   }
 }

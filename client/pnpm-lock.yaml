@@ -13,7 +13,7 @@ dependencies:
     version: 2.0.3(@types/react-dom@18.2.18)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
   '@thirdweb-dev/react':
     specifier: ^4.2.2
-    version: 4.2.2(@babel/core@7.23.7)(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@thirdweb-dev/sdk@4.0.25)(@types/react-dom@18.2.18)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.1)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+    version: 4.2.2(@babel/core@7.23.7)(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@thirdweb-dev/sdk@4.0.25)(@types/react-dom@18.2.18)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.2)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@thirdweb-dev/sdk':
     specifier: ^4.0.25
     version: 4.0.25(ethers@5.7.2)(typescript@5.3.3)
@@ -1169,7 +1169,7 @@ packages:
   /@fastify/fast-json-stringify-compiler@4.3.0:
     resolution: {integrity: sha512-aZAXGYo6m22Fk1zZzEUKBvut/CIIQe/BapEORnxiD5Qr0kPHqqI69NtEMCme74h+at72sPhbkb4ZrLd1W3KRLA==}
     dependencies:
-      fast-json-stringify: 5.12.0
+      fast-json-stringify: 5.13.0
     dev: false
 
   /@fastify/merge-json-schemas@0.1.1:
@@ -3266,7 +3266,7 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@thirdweb-dev/auth@4.1.21(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.1)(localforage@1.10.0)(react@18.2.0)(typescript@5.3.3):
+  /@thirdweb-dev/auth@4.1.21(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.2)(localforage@1.10.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-Q7/JCimcNRg5zwNe0KSDU8fq0gNxrDx1sZ81e5vRM3NuQyIG7bWVFXNuTIa6Eb0sRtUX7MmEqDZ3mGutsQu3rw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -3294,8 +3294,8 @@ packages:
       '@thirdweb-dev/wallets': 2.3.4(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(localforage@1.10.0)(react@18.2.0)(typescript@5.3.3)
       cookie: 0.5.0
       ethers: 5.7.2
-      fastify: 4.26.1
-      fastify-type-provider-zod: 1.1.9(fastify@4.26.1)(zod@3.22.4)
+      fastify: 4.26.2
+      fastify-type-provider-zod: 1.1.9(fastify@4.26.2)(zod@3.22.4)
       uuid: 9.0.1
       zod: 3.22.4
     transitivePeerDependencies:
@@ -3402,7 +3402,7 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@thirdweb-dev/react-core@4.2.2(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.1)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+  /@thirdweb-dev/react-core@4.2.2(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.2)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-qzTTkFWjLLvUXTkr17HgHqMshxcngI0q+Qyf4fn/r1ZMT2AC0ECk+VqA5j5m8bgkNXh3EeokT/Ms14OnLDJzxQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -3410,7 +3410,7 @@ packages:
       react: '>=18.0.0'
     dependencies:
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
-      '@thirdweb-dev/auth': 4.1.21(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.1)(localforage@1.10.0)(react@18.2.0)(typescript@5.3.3)
+      '@thirdweb-dev/auth': 4.1.21(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.2)(localforage@1.10.0)(react@18.2.0)(typescript@5.3.3)
       '@thirdweb-dev/chains': 0.1.62
       '@thirdweb-dev/generated-abis': 0.0.1
       '@thirdweb-dev/sdk': 4.0.25(ethers@5.7.2)(typescript@5.3.3)
@@ -3462,7 +3462,7 @@ packages:
       - zksync-web3
     dev: false
 
-  /@thirdweb-dev/react@4.2.2(@babel/core@7.23.7)(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@thirdweb-dev/sdk@4.0.25)(@types/react-dom@18.2.18)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.1)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+  /@thirdweb-dev/react@4.2.2(@babel/core@7.23.7)(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@thirdweb-dev/sdk@4.0.25)(@types/react-dom@18.2.18)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.2)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-chigDGLiw7C3sjn5NyFSllixwZEfG5oZ2zppyYQrCmKPV9RsKVr06FqYKBIvTquqQ5BdkgjofUwOGdbwlLKZag==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -3488,7 +3488,7 @@ packages:
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
       '@thirdweb-dev/chains': 0.1.62
       '@thirdweb-dev/payments': 1.0.1
-      '@thirdweb-dev/react-core': 4.2.2(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.1)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+      '@thirdweb-dev/react-core': 4.2.2(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(fastify@4.26.2)(localforage@1.10.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@thirdweb-dev/sdk': 4.0.25(ethers@5.7.2)(typescript@5.3.3)
       '@thirdweb-dev/wallets': 2.3.4(@ethersproject/abstract-provider@5.7.0)(@ethersproject/abstract-signer@5.7.0)(@ethersproject/bignumber@5.7.0)(@ethersproject/properties@5.7.0)(@types/react@18.2.47)(ethers@5.7.2)(localforage@1.10.0)(react@18.2.0)(typescript@5.3.3)
       buffer: 6.0.3
@@ -4680,7 +4680,7 @@ packages:
   /axios@0.21.4:
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.15.4
+      follow-redirects: 1.15.6
     transitivePeerDependencies:
       - debug
     dev: false
@@ -4688,7 +4688,7 @@ packages:
   /axios@0.27.2:
     resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
     dependencies:
-      follow-redirects: 1.15.4
+      follow-redirects: 1.15.6
       form-data: 4.0.0
     transitivePeerDependencies:
       - debug
@@ -6071,8 +6071,8 @@ packages:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
     dev: true
 
-  /fast-json-stringify@5.12.0:
-    resolution: {integrity: sha512-7Nnm9UPa7SfHRbHVA1kJQrGXCRzB7LMlAAqHXQFkEQqueJm1V8owm0FsE/2Do55/4CcdhwiLQERaKomOnKQkyA==}
+  /fast-json-stringify@5.13.0:
+    resolution: {integrity: sha512-XjTDWKHP3GoMQUOfnjYUbqeHeEt+PvYgvBdG2fRSmYaORILbSr8xTJvZX+w1YSAP5pw2NwKrGRmQleYueZEoxw==}
     dependencies:
       '@fastify/merge-json-schemas': 0.1.1
       ajv: 8.12.0
@@ -6097,6 +6097,11 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
+  /fast-redact@3.5.0:
+    resolution: {integrity: sha512-dwsoQlS7h9hMeYUq1W++23NDcBLV4KqONnITDV9DjfS3q1SgDGVrBdvvTLUotWtPSD7asWDV9/CmsZPy8Hf70A==}
+    engines: {node: '>=6'}
+    dev: false
+
   /fast-safe-stringify@2.1.1:
     resolution: {integrity: sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==}
     dev: false
@@ -6117,19 +6122,19 @@ packages:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
     dev: false
 
-  /fastify-type-provider-zod@1.1.9(fastify@4.26.1)(zod@3.22.4):
+  /fastify-type-provider-zod@1.1.9(fastify@4.26.2)(zod@3.22.4):
     resolution: {integrity: sha512-Ztnu1ZWJEKJouZvdTyfgjuVqS+A4JLoCbWBvFqFhfnrg6YQvEvW+5cJvP98kNbuV5gjfpWmHSOTi3BpkidJPQg==}
     peerDependencies:
       fastify: ^4.0.0
       zod: ^3.14.2
     dependencies:
-      fastify: 4.26.1
+      fastify: 4.26.2
       zod: 3.22.4
       zod-to-json-schema: 3.22.3(zod@3.22.4)
     dev: false
 
-  /fastify@4.26.1:
-    resolution: {integrity: sha512-tznA/G55dsxzM5XChBfcvVSloG2ejeeotfPPJSFaWmHyCDVGMpvf3nRNbsCb/JTBF9RmQFBfuujWt3Nphjesng==}
+  /fastify@4.26.2:
+    resolution: {integrity: sha512-90pjTuPGrfVKtdpLeLzND5nyC4woXZN5VadiNQCicj/iJU4viNHKhsAnb7jmv1vu2IzkLXyBiCzdWuzeXgQ5Ug==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.4.1
@@ -6137,9 +6142,9 @@ packages:
       abstract-logging: 2.0.1
       avvio: 8.3.0
       fast-content-type-parse: 1.1.0
-      fast-json-stringify: 5.12.0
+      fast-json-stringify: 5.13.0
       find-my-way: 8.1.0
-      light-my-request: 5.11.1
+      light-my-request: 5.12.0
       pino: 8.19.0
       process-warning: 3.0.0
       proxy-addr: 2.0.7
@@ -6220,8 +6225,8 @@ packages:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
     dev: true
 
-  /follow-redirects@1.15.4:
-    resolution: {integrity: sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==}
+  /follow-redirects@1.15.6:
+    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -7049,11 +7054,11 @@ packages:
       immediate: 3.0.6
     dev: false
 
-  /light-my-request@5.11.1:
-    resolution: {integrity: sha512-KXAh2m6VRlkWCk2KfmHE7tLBXKh30JE0tXUJY4dNxje4oLmPKUqlUfImiEQZLphx+Z9KTQcVv4DjGnJxkVOIbA==}
+  /light-my-request@5.12.0:
+    resolution: {integrity: sha512-P526OX6E7aeCIfw/9UyJNsAISfcFETghysaWHQAlQYayynShT08MOj4c6fBCvTWBrHXSvqBAKDp3amUPSCQI4w==}
     dependencies:
       cookie: 0.6.0
-      process-warning: 2.3.2
+      process-warning: 3.0.0
       set-cookie-parser: 2.6.0
     dev: false
 
@@ -8226,7 +8231,7 @@ packages:
     hasBin: true
     dependencies:
       atomic-sleep: 1.0.0
-      fast-redact: 3.3.0
+      fast-redact: 3.5.0
       on-exit-leak-free: 2.1.2
       pino-abstract-transport: 1.1.0
       pino-std-serializers: 6.2.2
@@ -8283,10 +8288,6 @@ packages:
 
   /process-warning@1.0.0:
     resolution: {integrity: sha512-du4wfLyj4yCZq1VupnVSZmRsPJsNuxoDQFdCFHLaYiEbFBD7QE0a+I4D7hOxrVnh78QE/YipFAj9lXHiXocV+Q==}
-    dev: false
-
-  /process-warning@2.3.2:
-    resolution: {integrity: sha512-n9wh8tvBe5sFmsqlg+XQhaQLumwpqoAUruLwjCopgTmUBjJ/fjtBsJzKleCaIGBOMXYEhp1YfKl4d7rJ5ZKJGA==}
     dev: false
 
   /process-warning@3.0.0:
